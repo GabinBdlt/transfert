@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 90%;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    color: white;
+}
+
+.logo{
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+#head {
+    width: 20%;
+}
+
+.log-in {
+    display: flex;
+    justify-content: right;
+    width: 20%;
+}
+
+.admin_header {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+}
+
+.admin_header ul a li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* ------------------------------------ SECTION ----------------------- */
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+}
+
+.change_admin_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change_admin_page .search_bar{
+    width: 70%;
+    margin: 50px;
+}
+
+#searchbar {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #262626;
+    width: 100%;
+    padding: 15px;
+  }
+  #searchbar:focus {
+    border-color: #B19472;
+  }
+
+.admin_change {
+    flex-direction: column;
+    height: 100%;
+}
+
+.login_page_admin {
+    margin: 120px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.admin_change h2 {
+    color: #262626;
+    font-size: 40px;  
+}
+
+.login_page_admin h2 {
+    color: #262626;
+    font-size: 60px;
+}
+
+.formulaire {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.bloc_form {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 20px 20px;
+    border-radius: 0px;
+    background-color: white;
+    border-color: #262626;
+    border-style: solid;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0px;
+    color: #262626;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 6px 6px 0px #262626;
+}
+
+.btn_login {
+    margin: 40px 0px;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+.btn_admin {
+    width: 100%;
+    padding: 20px 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #262626;
+    height: 200px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: #B19472;
+    font-size: 20px;
+}
+
+.container .bloc {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.text_footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+}
